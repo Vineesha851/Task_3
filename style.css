@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 1s ease;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #0b3954;
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background: #34a0a4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #168aad;
+}
+
+.quiz, .joke-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #e3f6f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

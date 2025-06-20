@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nature Quiz & Fun</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 Nature Quiz & Fun Zone 🌈</h1>
+
+    <!-- Carousel -->
+    <div class="carousel">
+      <img id="carousel-image" src="" alt="Nature Image" />
+      <div class="buttons">
+        <button onclick="prevImage()">⬅️</button>
+        <button onclick="nextImage()">➡️</button>
+      </div>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz">
+      <h2>🌳 Nature Quiz</h2>
+      <p id="question">Loading question...</p>
+      <div id="answers"></div>
+      <p id="quiz-result"></p>
+      <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <!-- Joke -->
+    <div class="joke-section">
+      <h2>😂 Want a Joke?</h2>
+      <button onclick="fetchJoke()">Tell me a joke!</button>
+      <p id="joke"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
